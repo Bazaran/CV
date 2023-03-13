@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@1&display=swap');
+/* Fontes = "Krona One e Montserrat"*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    letter-spacing: 1px;/*Espaçamento das letras*/
+    background: #0A192F;
+    color:black;
+    box-sizing: border-box;
+}
+
+.apresentacao{
+    font-family: "Kronaone",sans-serif;
+    margin: 10% 15%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.apresentacao_conteudo{
+    text-align: left;
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao_conteudo_titulo{
+    color: #CCD6F6;
+    font-size: 35px;
+    font-weight: 700px;
+    font-family: "Krona One", sans-serif
+}
+
+.my_name{
+    color:#0356fd;
+}
+
+.apres_text{
+    color: #8892B0;
+    text-indent: 0px; /*Distância do paragrafo*/
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apres_about_me{
+    color: #CCD6F6;
+    font-size: 35px;
+    font-family: "Krona One", sans-serif;
+}
+
+.apres_text_me{
+    color: #8892B0;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tools_knowledge{
+    color:#8892B0;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tools{
+    color: #8892B0;
+    font-size: 20px;
+    font-family:"Montserrat", sans-serif;
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem_teclado{
+    box-sizing: border-box;
+    position: relative;
+
+    Top: -20px;
+    left: -0px;
+
+    width: 330px;
+    height: 273px;
+    border: 3px solid rgb(35, 58, 192);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.apres_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #DDD7D7;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.icon{
+    width: 72px;
+    height: 20px;
+    border-radius: 256px;
+    width: 39px;
+    height: 38px;
+    border: 1px solid rgb(25, 13, 48);
+}
